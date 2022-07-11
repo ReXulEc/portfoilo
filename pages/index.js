@@ -1,7 +1,11 @@
+import Topprojects from '../components/topprojects'
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="grid justify-items-center pt-52">
+        <div className="w-5/12">
+            <Topprojects />
+        </div>
+    </div>
   )
 }
