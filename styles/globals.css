@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css?family=Inter');
-
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
 }
