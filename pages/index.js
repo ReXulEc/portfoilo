@@ -37,7 +37,7 @@ export default function Home() {
                     <div className="ml-12 z-10">
                             <Fetchorgmembers org="SettleCo" />
                     </div>
-                    <div className=" text-2xl text-stone-900 ml-4 space-y-4">
+                    <div className="text-2xl text-stone-900 ml-12 space-y-4">
                         <p><strong>SettleCo</strong> is a tiny development company which located on <strong>Turkey, Izmir.</strong></p>
                         <p>We have a team that consists of <strong>1-5 people</strong></p>
                         <p>We are a relatively <strong>small company</strong> that aims to grow by making <strong>new projects</strong>.</p>
@@ -82,7 +82,7 @@ export default function Home() {
                     <div className="ml-12 z-10">
                         <Fetchorgmembers org="SettleCo" />
                     </div>
-                    <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
+                    <div className="text-2xl text-stone-900 ml-12 space-y-4 ">
                         <p>Isolation is a start page with some widgets to keep you focused.</p>
                         <p>Among the prominent features of the plugin, you can customize the background, favorites, weather widget.</p>
                         <div className="relative group">
@@ -110,8 +110,24 @@ export default function Home() {
                     <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
                         <p>MergeApp is the project that we started in the middle of 2020 and we had to stop the project due to various problems.</p>
                         <p>The starting point of our project was to provide free, ad-free and secure messaging to players or software developers, but things did not go as expected.</p>
-                        <p>(and also the old name of our project was ReponseApp, but we decided to change the name because of a random stupid team fight lol.)</p>
+                        <p>(and also the old name of our project was Reponse/ReponseApp, but we decided to change the name because of a random stupid team fight lol.)</p>
                         <p>The <span className="font-semibold">good news</span> is that we will change the concept of the project and relaunch it. this time we plan the app to be offline. (no joke lul)</p>
+                    </div>
+                </div>
+                <div id="crdvisit" className="pt-20">
+                    <div style={projects_style} className="sticky top-3 z-20">
+                        <div className="flex items-center text-stone-900 space-x-2">
+                            <img src="/meta/crdvisit.png" className="h-10 w-10 rounded-xl" alt=""/>
+                            <p className="font-bold text-3xl">Crdvisit</p>
+                        </div>
+                        <p className="text-stone-500 ml-12">2020 - <span className="text-green-600 font-semibold">Now</span></p>
+                    </div>
+                    <div className="ml-12 z-10">
+                        <Fetchorgmembers org="crdvisit" />
+                    </div>
+                    <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
+                        <p>Crdvisit is a app where you can pay/receive people, customize your profile and discover new people.</p>
+                        <p>We started developing Crdvisit with Vue towards the middle of 2020 and then shut down its servers. Its name was RepeatPay when we shut down their servers. And we decided to change its name to crdvisit and re-launch it. We are currently trying to rebuild the entire system. We will re-write it with React.js.</p>
                     </div>
                 </div>
             </div>
