@@ -16,24 +16,30 @@ export const CONFIG = {
             Name:"SettleCo",
             img: "/meta/settleco.png",
             link:"https://settleco.net",
-            zindex:"z-40"
+            zindex:"z-50"
         },
         {
             Name:"OpenAnime",
             img: "/meta/openanime.png",
             link:"https://openani.me",
-            zindex:"z-30"
+            zindex:"z-40"
         },
         {
             Name:"Isolation",
             img: "/meta/isolation.png",
             link:"https://isolation.settleco.net",
-            zindex:"z-20"
+            zindex:"z-30"
         },
         {
             Name:"MergeApp",
             img: "/meta/mergeapp.png",
             link:"https://mergeapp.dev",
+            zindex:"z-20"
+        },
+        {
+            Name:"Crdvisit",
+            img: "/meta/crdvisit.png",
+            link:"https://crdvisit.settleco.net",
             zindex:"z-10"
         },
     ]
