@@ -2,7 +2,7 @@ export default function topmain() {
     return (
         <div className="text-3xl space-y-4">
             <div>
-                <p className="font-bold text-stone-900">Hey, I'm Mert.</p>
+                <p className="font-bold text-stone-900">Hey, I&apos;m Mert.</p>
                 <p className="font-normal text-stone-800 w-10/12">Founder/Developer of SettleCo. A Front-end Developer that always aims for improvement.</p>
             </div>
             <div className="flex items-center text-xl space-x-5">

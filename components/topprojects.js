@@ -2,7 +2,7 @@ export default function topprojects() {
     return (
         <div className="flex -space-x-3">
             {CONFIG.projects.map((r) => (
-                <a className={r.zindex} href={r.link}>
+                <a className={r.zindex} key={r} href={r.link}>
                     <img src={r.img} className='w-10 h-10 rounded-xl border-4 border-white hover:-translate-y-2 transition-all' alt={r.name + 'image'}/>
                 </a>
             ))}

@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 
-export default function fetchOrgMembers({org}) {
+export default function FetchOrgMembers({org}) {
     const [data,setData]=useState([]);
     const getData=()=>{
         fetch(`https://api.github.com/orgs/${org}/members`
@@ -31,7 +31,7 @@ export default function fetchOrgMembers({org}) {
     return (
         <div className="flex py-5 space-x-2">
             {data.map((r) => (
-                <a href={r.html_url} className="group relative">
+                <a key={r} href={r.html_url} className="group relative">
                     <svg style={style}
                          className="opacity-0 group-hover:opacity-100 absolute w-5 h-5 transition-all" fill="white" viewBox="0 0 16 16"
                          xmlns="http://www.w3.org/2000/svg">
