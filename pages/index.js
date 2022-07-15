@@ -37,7 +37,7 @@ export default function Home() {
                     <div className="ml-12 z-10">
                             <Fetchorgmembers org="SettleCo" />
                     </div>
-                    <div className="text-2xl text-stone-900 ml-12 space-y-4">
+                    <div className="text-stone-900 ml-12 space-y-4  md:text-2xl text-lg">
                         <p><strong>SettleCo</strong> is a tiny development company which located on <strong>Turkey, Izmir.</strong></p>
                         <p>We have a team that consists of <strong>1-5 people</strong></p>
                         <p>We are a relatively <strong>small company</strong> that aims to grow by making <strong>new projects</strong>.</p>
@@ -55,14 +55,14 @@ export default function Home() {
                         <Fetchorgmembers org="openanime" />
                     </div>
                     <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
-                        <p ><strong>OpenAnime</strong> is an <strong>open source anime platform</strong> that aims on community, security and speed. It provides some of the unique features that you will rarely see on an anime platform.</p>
+                        <p className="md:text-2xl text-lg"><strong>OpenAnime</strong> is an <strong>open source anime platform</strong> that aims on community, security and speed. It provides some of the unique features that you will rarely see on an anime platform.</p>
                         <div className="relative group rounded-md">
                             <p style={top_center} className="text-white font-semibold text-sm md:text-2xl transition-all opacity-0 group-hover:opacity-100 absolute z-10 w-3/4">Profile section we made for OpenAnime. Here you can see what other people are watching or for how long.</p>
                             <div className="bg-stone-600 rounded-md">
                                 <img src="/assets/openanime.png" className='group-hover:opacity-50 rounded-md transition group-hover:blur-lg'/>
                             </div>
                         </div>
-                        <div className="space-y-2">
+                        <div className="space-y-2 md:text-2xl text-lg">
                             <p><strong>Watch together system</strong> to create rooms and chat with your friends that you have invited to your room in realtime while watching your anime</p>
                             <p>Community section to publish your <strong>favorite anime clips</strong></p>
                             <p>Ability to <strong>download anime videos</strong> right in <strong>your browser</strong></p>
@@ -83,15 +83,17 @@ export default function Home() {
                         <Fetchorgmembers org="SettleCo" />
                     </div>
                     <div className="text-2xl text-stone-900 ml-12 space-y-4 ">
-                        <p>Isolation is a start page with some widgets to keep you focused.</p>
-                        <p>Among the prominent features of the plugin, you can customize the background, favorites, weather widget.</p>
+                        <div className="md:text-2xl text-lg space-y-4 ">
+                            <p>Isolation is a start page with some widgets to keep you focused.</p>
+                            <p>Among the prominent features of the plugin, you can customize the background, favorites, weather widget.</p>
+                        </div>
                         <div className="relative group">
                             <p style={top_center} className="text-white font-semibold text-lg md:text-2xl transition-all opacity-0 group-hover:opacity-100 absolute z-10 w-3/4">Screenshot taken during the closed beta phase of the project</p>
                             <div className="bg-stone-400 rounded-md">
                                 <img src="/assets/isolation.png" className='group-hover:opacity-50 rounded-md transition group-hover:blur-lg'/>
                             </div>
                         </div>
-                        <div className="space-y-2">
+                        <div className="md:text-2xl text-lg ">
                             <p>You can also access crypto prices and music of the day with this extention.</p>
                         </div>
                     </div>
@@ -107,7 +109,7 @@ export default function Home() {
                     <div className="ml-12 z-10">
                         <Fetchorgmembers org="mergeappdev" />
                     </div>
-                    <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
+                    <div className="md:text-2xl text-lg  text-stone-900 ml-12 space-y-4 ">
                         <p>MergeApp is the project that we started in the middle of 2020 and we had to stop the project due to various problems.</p>
                         <p>The starting point of our project was to provide free, ad-free and secure messaging to players or software developers, but things did not go as expected.</p>
                         <p>(and also the old name of our project was Reponse/ReponseApp, but we decided to change the name because of a random stupid team fight lol.)</p>
@@ -125,7 +127,7 @@ export default function Home() {
                     <div className="ml-12 z-10">
                         <Fetchorgmembers org="crdvisit" />
                     </div>
-                    <div className=" text-2xl text-stone-900 ml-12 space-y-4 ">
+                    <div className="md:text-2xl text-lg text-stone-900 ml-12 space-y-4 ">
                         <p>Crdvisit is a app where you can pay/receive people, customize your profile and discover new people.</p>
                         <p>We started developing Crdvisit with Vue towards the middle of 2020 and then shut down its servers. Its name was RepeatPay when we shut down their servers. And we decided to change its name to crdvisit and re-launch it. We are currently trying to rebuild the entire system. We will re-write it with React.js.</p>
                     </div>
