@@ -12,11 +12,10 @@ export default function FetchOrgMembers({org}) {
             }
         )
             .then(function(response){
-                console.log(response)
+                console.log("%c" + `STATUS: ${response.status}`, "color: #7a99ff; font-size: 15px; font-weight: bold;")
                 return response.json();
             })
             .then(function(myJson) {
-                console.log(myJson);
                 setData(myJson)
             });
     }
@@ -30,8 +29,8 @@ export default function FetchOrgMembers({org}) {
     };
     return (
         <div className="flex py-5 space-x-2">
-            {data.map((r) => (
-                <a key={r} href={r.html_url} className="group relative">
+            {data.map((r, index) => (
+                <a key={index} href={r.html_url} className="group relative">
                     <svg style={style}
                          className="opacity-0 group-hover:opacity-100 absolute w-5 h-5 transition-all" fill="white" viewBox="0 0 16 16"
                          xmlns="http://www.w3.org/2000/svg">
